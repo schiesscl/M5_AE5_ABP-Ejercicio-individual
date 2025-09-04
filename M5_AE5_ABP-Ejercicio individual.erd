@@ -1,0 +1,108 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -1,
+    "scrollLeft": -1,
+    "zoomLevel": 1,
+    "show": 511,
+    "database": 4,
+    "databaseName": "Tienda",
+    "canvasType": "ERD",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "relationshipOptimization": false,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "ignoreSaveSettings": 0
+  },
+  "doc": {
+    "tableIds": [
+      "srp3JFcV2QieaGXIl4gBH",
+      "4xKG0vpDoMqcPz2HBsFls",
+      "ihnM055G3Jaov973vkqnA"
+    ],
+    "relationshipIds": [],
+    "indexIds": [],
+    "memoIds": []
+  },
+  "collections": {
+    "tableEntities": {
+      "srp3JFcV2QieaGXIl4gBH": {
+        "id": "srp3JFcV2QieaGXIl4gBH",
+        "name": "Clientes",
+        "comment": "",
+        "columnIds": [],
+        "seqColumnIds": [],
+        "ui": {
+          "x": 120,
+          "y": 127,
+          "zIndex": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1756777629714,
+          "createAt": 1756777605945
+        }
+      },
+      "4xKG0vpDoMqcPz2HBsFls": {
+        "id": "4xKG0vpDoMqcPz2HBsFls",
+        "name": "Pedidos",
+        "comment": "",
+        "columnIds": [],
+        "seqColumnIds": [],
+        "ui": {
+          "x": 104,
+          "y": 312,
+          "zIndex": 4,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1756777645626,
+          "createAt": 1756777617290
+        }
+      },
+      "ihnM055G3Jaov973vkqnA": {
+        "id": "ihnM055G3Jaov973vkqnA",
+        "name": "Productos",
+        "comment": "",
+        "columnIds": [],
+        "seqColumnIds": [],
+        "ui": {
+          "x": 124,
+          "y": 477,
+          "zIndex": 6,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1756777664482,
+          "createAt": 1756777620219
+        }
+      }
+    },
+    "tableColumnEntities": {},
+    "relationshipEntities": {},
+    "indexEntities": {},
+    "indexColumnEntities": {},
+    "memoEntities": {}
+  }
+}
